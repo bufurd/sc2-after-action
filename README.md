@@ -8,6 +8,8 @@ After every game you play, SC2 After-Action builds a report you can read between
 
 Windows · free · about 9 MB · early alpha
 
+![The dashboard: your games on the left, the after-action report for the selected game on the right](docs/dashboard.jpg)
+
 ---
 
 ## What it shows
@@ -18,6 +20,22 @@ Windows · free · about 9 MB · early alpha
 - **Workers, spending and energy:** workers over time, money left in the bank, Nexus / Queen / Orbital energy, larva and injects.
 - **Graphs** like the in-game score screen and more, with both players on every chart.
 - **Your history:** how you usually do in each matchup, what tends to win your games, and your record against the player you just faced.
+
+## Screenshots
+
+**Summary:** the headline, what stood out, a scorecard against your usual, both builds, and details such as supply blocks with the Pylon that needed to start earlier.
+
+![Summary page with the supply block table open](docs/summary.jpg)
+
+**Graphs:** both players on every chart, with the numbers at the cursor in the bar on top.
+
+![Workers graph for both players](docs/graphs.jpg)
+
+**Build order:** everything both players made, with start and finish times and supply.
+
+![Build order for both players side by side](docs/build-order.jpg)
+
+<sub>Opponent names in these screenshots are replaced with "Opponent".</sub>
 
 ## How to install
 
