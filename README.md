@@ -68,4 +68,4 @@ Every open-source component in the download is listed with its licence in [THIRD
 
 StarCraft and StarCraft II are trademarks of Blizzard Entertainment, Inc. SC2 After-Action is not affiliated with, endorsed by or supported by Blizzard Entertainment.
 
-Made by Bufurd.
+Designed and tested by Bufurd, built with [Claude Code](https://claude.com/claude-code) (AI-assisted).
