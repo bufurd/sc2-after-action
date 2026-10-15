@@ -1,0 +1,52 @@
+SC2 After-Action - Licence for the downloaded program
+=====================================================
+
+Copyright (c) 2026 Bufurd. All rights reserved.
+
+By installing, running or otherwise using SC2 After-Action ("the Program") you agree to this licence. If you do not
+agree, do not use the Program and delete it.
+
+1. What you may do
+   You may download the Program from its official release page and use it, free of charge, for its intended purpose:
+   reading StarCraft II replay files on your own computer to review games, your own or those of players you coach.
+   You may share the link to the official release page.
+
+2. What you may not do
+   Except where the law expressly allows it despite this restriction, you may not:
+   a. host, upload, mirror or otherwise redistribute the Program or any part of this download (share the link to the
+      official release page instead);
+   b. decompile, disassemble, unpack or otherwise reverse engineer the Program, or attempt to extract its source code;
+   c. modify the Program, or create, distribute or sell works based on it;
+   d. sell, rent, lease or sublicense the Program, or use it as part of a paid product or service;
+   e. remove or change any copyright, licence or trademark notice in this download;
+   f. use the Program for any purpose that is unlawful or that breaks the terms of a game or service you use.
+   All rights not expressly granted in this licence are reserved by the author.
+
+3. Third-party components
+   The Program includes open-source software that the author does not own (listed with their licences in
+   THIRD-PARTY-NOTICES.txt). Each of those components is licensed to you under its own licence, not under this one.
+   Nothing in this licence limits any right those licences give you for those components. The restrictions in
+   section 2 apply only to the parts of the Program created by the author.
+
+4. No warranty
+   THE PROGRAM IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+   NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT.
+   THE PROGRAM IS EARLY ALPHA SOFTWARE. ITS NUMBERS AND LABELS INCLUDE ESTIMATES THAT MAY BE INCOMPLETE OR WRONG (SEE
+   "KNOWN ISSUES" IN README.txt). YOU USE THE PROGRAM AND RELY ON ITS RESULTS ENTIRELY AT YOUR OWN RISK.
+
+5. Limitation of liability
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY, INCLUDING LOSS OF DATA, LOSS
+   OF PROFITS, OR DAMAGE TO ANY COMPUTER OR ACCOUNT, ARISING FROM OR IN CONNECTION WITH THE PROGRAM OR ITS USE, EVEN IF
+   ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+6. Ending this licence
+   This licence ends automatically if you break any of its terms. When it ends you must stop using the Program and
+   delete every copy you have. Sections 3 to 7 continue to apply after it ends.
+
+7. Other terms
+   StarCraft and StarCraft II are trademarks of Blizzard Entertainment, Inc. The Program is not affiliated with,
+   endorsed by or supported by Blizzard Entertainment. The Program only reads replay files already saved on your
+   computer; it does not connect to the game, change game files, or send your data anywhere.
+   If any part of this licence cannot be enforced, the rest still applies. The author may publish a new version of
+   this licence with a later release; the version included in a download applies to that download.
