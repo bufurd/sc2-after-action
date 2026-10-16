@@ -4,9 +4,9 @@
 
 After every game you play, SC2 After-Action builds a report you can read between games: what happened with your supply, workers, spending and army, which builds both players went for, and how the game compares with your usual games and with other players at your rating.
 
-### [⬇ Download the latest version](https://github.com/bufurd/sc2-after-action/releases/latest)
+### [⬇ Download the latest version (SC2AfterAction.zip)](https://github.com/bufurd/sc2-after-action/releases/latest/download/SC2AfterAction.zip)
 
-Windows · free · about 9 MB · early alpha
+Windows · free · about 9 MB · early alpha · [all versions and release notes](https://github.com/bufurd/sc2-after-action/releases)
 
 ![The dashboard: your games on the left, the after-action report for the selected game on the right](docs/dashboard.jpg)
 
@@ -39,7 +39,7 @@ Windows · free · about 9 MB · early alpha
 
 ## How to install
 
-1. Download `SC2AfterAction.zip` from the [latest release](https://github.com/bufurd/sc2-after-action/releases/latest) and unzip it anywhere, for example your Desktop.
+1. Download [`SC2AfterAction.zip`](https://github.com/bufurd/sc2-after-action/releases/latest/download/SC2AfterAction.zip) and unzip it anywhere, for example your Desktop. On a release page it is under **Assets**: not the "Source code" zips, which GitHub adds to every release and which hold only this page.
 2. Double-click `SC2AfterAction.exe`. A black window opens (leave it open, it is the program) and your browser opens the dashboard.
 3. The first time, it reads your replay folders and asks which accounts are yours. Tick every account that is you, then Save.
 4. Drag the browser window to your second monitor. New games show up a few seconds after they end.
