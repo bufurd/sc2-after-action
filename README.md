@@ -18,7 +18,7 @@ Every game is checked against all of your earlier games, and when you set a new 
 
 ![A "New personal record!" celebration over the dashboard, with a trophy next to the game in the list and a gold banner on its summary](docs/records.jpg)
 
-- **MMR highs:** the first time you play at a new round hundred (past 3,500 MMR for the first time, or your best in one matchup). A new MMR high stays on screen until you click **"Oh yeah, baby, I know it!"**
+- **MMR highs:** the first time you play at a new round hundred (past 3,500 MMR for the first time, or your best in one matchup). A new MMR high gets a little something extra.
 - **Win streaks:** your longest run of ladder wins so far.
 - **Clear bests in a matchup:** most workers or income at the checkpoint, lowest bank, least Nexus / Queen / Orbital energy left idle, best inject uptime, fastest max out, highest APM. Only compared with your own games of the same race, matchup and patch era, and only when it beats the old best by a real margin, so it stays a treat.
 - **Milestones:** your 100th, 250th, 500th, 1,000th game, and every 500 after.
