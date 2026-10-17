@@ -23,9 +23,9 @@ Windows · free · about 9 MB · early alpha · [all versions and release notes]
 
 ## Screenshots
 
-**Summary:** the headline, what stood out, a scorecard against your usual, both builds, and details such as supply blocks with the Pylon that needed to start earlier.
+**Summary:** the headline, what stood out, a scorecard against your usual, both builds, and details such as game notes (first blood, a big worker loss, a merged Archon, your hero unit).
 
-![Summary page with the supply block table open](docs/summary.jpg)
+![Summary page with the game notes open](docs/summary.jpg)
 
 **Graphs:** both players on every chart, with the numbers at the cursor in the bar on top.
 
