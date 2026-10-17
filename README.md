@@ -12,6 +12,21 @@ Windows · free · about 9 MB · early alpha · [all versions and release notes]
 
 ---
 
+## Personal records
+
+Every game is checked against all of your earlier games, and when you set a new best the program tells you:
+
+![A "New personal record!" celebration over the dashboard, with a trophy next to the game in the list and a gold banner on its summary](docs/records.jpg)
+
+- **MMR highs:** the first time you play at a new round hundred (past 3,500 MMR for the first time, or your best in one matchup). A new MMR high stays on screen until you click **"Oh yeah, baby, I know it!"**
+- **Win streaks:** your longest run of ladder wins so far.
+- **Clear bests in a matchup:** most workers or income at the checkpoint, lowest bank, least Nexus / Queen / Orbital energy left idle, best inject uptime, fastest max out, highest APM. Only compared with your own games of the same race, matchup and patch era, and only when it beats the old best by a real margin, so it stays a treat.
+- **Milestones:** your 100th, 250th, 500th, 1,000th game, and every 500 after.
+
+A record never changes after the fact, so what you saw is what you earned. Games with a record get a trophy in the list and a gold banner on top of their summary, and you can filter the list to just those games. Only your own games count: imports and other players' replays never do. Don't want the popup? Untick "Celebrate personal records" in Settings.
+
+---
+
 ## What it shows
 
 - **What stood out:** up to three things that were clearly better or worse than your usual, right at the top.
