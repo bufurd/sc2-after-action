@@ -1,6 +1,4 @@
-<p align="center"><img src="docs/logo.png" alt="SC2 After-Action logo: five rising bars" width="160"></p>
-
-# SC2 After-Action
+# <img src="docs/logo.png" alt="" height="36"> SC2 After-Action
 
 **Free after-action reports for your StarCraft II games, on your second monitor.**
 
