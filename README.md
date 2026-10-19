@@ -1,12 +1,14 @@
+<p align="center"><img src="docs/logo.png" alt="SC2 After-Action logo: five rising bars" width="160"></p>
+
 # SC2 After-Action
 
 **Free after-action reports for your StarCraft II games, on your second monitor.**
 
-After every game you play, SC2 After-Action builds a report you can read between games: what happened with your supply, workers, spending and army, which builds both players went for, and how the game compares with your usual games and with other players at your rating.
+After every game you play, SC2 After-Action builds a report you can read between games: what happened with your supply, workers, spending and army, which builds both players went for, and how the game compares with your usual games and with other players at your MMR.
 
 ### [⬇ Download the latest version (SC2AfterAction.zip)](https://github.com/bufurd/sc2-after-action/releases/latest/download/SC2AfterAction.zip)
 
-Windows · free · about 9 MB · early alpha · [all versions and release notes](https://github.com/bufurd/sc2-after-action/releases)
+Windows · free · about 16 MB · early alpha · [all versions and release notes](https://github.com/bufurd/sc2-after-action/releases)
 
 ![The dashboard: your games on the left, the after-action report for the selected game on the right](docs/dashboard.jpg)
 
@@ -55,11 +57,11 @@ A record never changes after the fact, so what you saw is what you earned. Games
 ## How to install
 
 1. Download [`SC2AfterAction.zip`](https://github.com/bufurd/sc2-after-action/releases/latest/download/SC2AfterAction.zip) and unzip it anywhere, for example your Desktop. On a release page it is under **Assets**: not the "Source code" zips, which GitHub adds to every release and which hold only this page.
-2. Double-click `SC2AfterAction.exe`. A black window opens (leave it open, it is the program) and your browser opens the dashboard.
-3. The first time, it reads your replay folders and asks which accounts are yours. Tick every account that is you, then Save.
+2. Double-click `SC2AfterAction.exe`. A short logo animation plays and your browser opens the dashboard. The program keeps running in the system tray: look for its icon (five coloured bars) by the clock. Windows 10 may put new icons under the **^** arrow; drag it out onto the taskbar to keep it visible.
+3. The first time, it reads your replay folders (about a minute for 2,000 replays) and asks which accounts are yours. Tick every account that is you, then Save.
 4. Drag the browser window to your second monitor. New games show up a few seconds after they end.
 
-To stop it, close the black window.
+Left-click the tray icon to open the dashboard again. Right-click it for **Open dashboard**, **Rescan replays**, **Start with Windows** (off by default) and **Quit**. Closing the browser tab does not stop the program: to stop it, right-click the tray icon and choose **Quit**.
 
 ### "Windows protected your PC" and antivirus warnings
 
@@ -67,8 +69,9 @@ The program is new and not signed with a paid certificate yet, so Windows SmartS
 
 ## Your privacy
 
-- **Nothing leaves your computer.** The program only reads the replay files StarCraft II already saves, and shows its reports in your own browser at `http://127.0.0.1:8765`.
-- It does not connect to the game, change any game files, or send any data anywhere.
+- **Your replays and stats never leave your computer.** The program only reads the replay files StarCraft II already saves, and shows its reports in your own browser at `http://127.0.0.1:8765`.
+- It does not connect to the game or change any game files.
+- **The only internet connection** is one request a day to GitHub for the number of the latest release, so the dashboard can say "A newer version is available". Nothing about you or your games is sent. Turn it off with the switch in Settings, or set `check_updates = 0` in `settings.ini` next to the program (then it makes no internet connection at all).
 - It keeps its own copy of the numbers in `%APPDATA%\SC2AfterAction` (settings, a cache and a log). Delete that folder to remove everything.
 
 ## Known issues
@@ -95,6 +98,7 @@ SC2 After-Action is built on open-source software:
 
 - [sc2reader](https://github.com/ggtracker/sc2reader) and [mpyq](https://github.com/eagleflo/mpyq): reading replay files
 - [uPlot](https://github.com/leeoniya/uPlot): the graphs
+- [pystray](https://github.com/moses-palmer/pystray) and [Pillow](https://python-pillow.org/): the tray icon
 - [Python](https://www.python.org/) and [PyInstaller](https://pyinstaller.org/): running and packaging the program
 
 Every open-source component in the download is listed with its licence in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
