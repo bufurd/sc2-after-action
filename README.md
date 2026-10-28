@@ -71,10 +71,14 @@ Everything here is off until you turn it on in **Settings → Stream overlay**.
 
 1. Download [`SC2AfterAction.zip`](https://github.com/bufurd/sc2-after-action/releases/latest/download/SC2AfterAction.zip) and unzip it anywhere, for example your Desktop. On a release page it is under **Assets**: not the "Source code" zips, which GitHub adds to every release and which hold only this page.
 2. Double-click `SC2AfterAction.exe`. A short logo animation plays and your browser opens the dashboard. The program keeps running in the system tray: look for its icon (five coloured bars) by the clock. Windows 10 may put new icons under the **^** arrow; drag it out onto the taskbar to keep it visible.
-3. The first time, it reads your replay folders (about a minute for 2,000 replays) and asks which accounts are yours. Tick every account that is you, then Save.
+3. The first time, it reads your replay folders (see "What happens on first start" below) and asks which accounts are yours. Tick every account that is you, then Save.
 4. Drag the browser window to your second monitor. New games show up a few seconds after they end.
 
-Left-click the tray icon to open the dashboard again. Right-click it for **Open dashboard**, **Rescan replays**, **Start with Windows** (off by default) and **Quit**. Closing the browser tab does not stop the program: to stop it, right-click the tray icon and choose **Quit**.
+Left-click the tray icon to open the dashboard again. Right-click it for **Open dashboard**, **Start with Windows** (off by default) and **Quit**. Closing the browser tab does not stop the program: to stop it, right-click the tray icon and choose **Quit**.
+
+### What happens on first start
+
+The first start reads every replay once. Your newest games come first and are ready within seconds; while the start screen is up the program uses all your CPU cores for a short while (about 30 seconds for 2,500 replays on a fast PC). If you close the start screen it carries on in the background at a slow, low-priority pace, so you can play meanwhile; the tray icon says "Preparing your games (N left)" until it is done. A new game you play during this is read straight away, not after the rest. It all happens on your PC: nothing leaves it. Later starts only read new replays and are ready in a few seconds.
 
 ### "Windows protected your PC" and antivirus warnings
 
